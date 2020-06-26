@@ -4,7 +4,7 @@ require 'pry'
 
 def snake_it_up(string)
   if string == "surprise!"
-    * 10 "s"   string
+    string.pop
   else
    puts string
   end
